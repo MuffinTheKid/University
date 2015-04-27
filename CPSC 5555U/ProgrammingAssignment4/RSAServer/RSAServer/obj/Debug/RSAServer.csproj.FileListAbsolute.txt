@@ -1,0 +1,8 @@
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\bin\Debug\RSAServer.exe
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\bin\Debug\RSAServer.pdb
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\obj\Debug\RSAServer.csprojResolveAssemblyReference.cache
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\obj\Debug\RSAServer.RSAServer.resources
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\obj\Debug\RSAServer.Properties.Resources.resources
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\obj\Debug\RSAServer.csproj.GenerateResource.Cache
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\obj\Debug\RSAServer.exe
+C:\Users\Drewski\Documents\School\CPSC 5555U\Programming Assignments\ProgrammingAssignment4\secondTry\RSAServer\RSAServer\obj\Debug\RSAServer.pdb
