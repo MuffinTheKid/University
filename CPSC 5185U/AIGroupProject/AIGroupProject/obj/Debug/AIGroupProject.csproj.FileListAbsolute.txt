@@ -1,0 +1,18 @@
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\bin\Debug\AIGroupProject.exe.config
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\bin\Debug\AIGroupProject.exe
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\bin\Debug\AIGroupProject.pdb
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.csprojResolveAssemblyReference.cache
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.Maze.resources
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.Properties.Resources.resources
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.csproj.GenerateResource.Cache
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.exe
+c:\users\spencer\documents\visual studio 2012\Projects\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.pdb
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\bin\Debug\AIGroupProject.exe.config
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.exe
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.pdb
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\bin\Debug\AIGroupProject.exe
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\bin\Debug\AIGroupProject.pdb
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.csprojResolveAssemblyReference.cache
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.Maze.resources
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.Properties.Resources.resources
+C:\Users\Drewski\Documents\School\CPSC 5185\AIGroupProject\AIGroupProject\AIGroupProject\obj\Debug\AIGroupProject.csproj.GenerateResource.Cache
