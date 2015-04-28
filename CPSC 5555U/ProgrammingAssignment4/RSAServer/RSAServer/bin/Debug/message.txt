@@ -1,1 +1,3 @@
-??F?,
+Cipher: 11512459688152
+Decrypted cipher: 478560413032
+String hidden in cipher: hello

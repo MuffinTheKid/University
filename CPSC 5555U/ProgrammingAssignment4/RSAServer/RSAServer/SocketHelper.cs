@@ -56,6 +56,7 @@ namespace RSAServer
                 {
                     BigInteger cipher = new BigInteger(bytesReceived);
                     string mess = this.decrypt(cipher, keys[1]);
+                    //string mess = cipher.ToString();
                     report = mess;
                 }
                 catch(Exception e)
@@ -72,9 +73,12 @@ namespace RSAServer
         #region Decrypting the Ciphertext
         public String decrypt(BigInteger cipher, BigInteger[] key)
         {
+            string message = "Cipher: " + cipher.ToString() + "\r\n";
             BigInteger M = BigInteger.ModPow(cipher, key[0], key[1]);
+            message += "Decrypted cipher: " + M.ToString() + "\r\n";
             Byte[] Mbytes = M.ToByteArray();
-            String message = System.Text.Encoding.ASCII.GetString(Mbytes);
+            message += "String hidden in cipher: " + System.Text.Encoding.ASCII.GetString(Mbytes);
+            //string message = M.ToString();
             return message;
         }
         #endregion
@@ -101,38 +105,22 @@ namespace RSAServer
             BigInteger n = BigInteger.Multiply(p, q);
             BigInteger phi = (BigInteger.Multiply((BigInteger.Subtract(p, BigInteger.One)), (BigInteger.Subtract(q, BigInteger.One))));
             BigInteger e = new BigInteger(rand.Next(99999999));
+            BigInteger d = new BigInteger();
             while (true)
             {
                 if (e < phi)
                 {
                     if (BigInteger.Equals(BigInteger.GreatestCommonDivisor(e, phi), BigInteger.One))
                     {
-                        break;
+                        d = inverse(e, phi);
+                        if (!d.Equals(BigInteger.Zero))
+                        {
+                            break;
+                        }
                     }
-                    //break;
                 }
                 e = new BigInteger(rand.Next(99999999));
-            }
-            //while (true)
-            //{
-            //    if (BigInteger.Equals(BigInteger.GreatestCommonDivisor(phi, e), BigInteger.One))
-            //    {
-            //        break;
-            //    }
-            //    e = new BigInteger(rand.Next(9999999));
-            //}
-            //BigInteger d; //= BigInteger.ModPow(e, BigInteger.MinusOne, phi);
-            //for (int x = 1; x < e; x++)
-            //{
-
-            //    BigInteger x_temp = new BigInteger(x);
-            //    BigInteger temp = BigInteger.Multiply(e, x_temp);
-            //    if (BigInteger.Equals(BigInteger.Remainder(temp, phi), BigInteger.One))
-            //    {
-            //        d = temp;
-            //    }
-            //}
-            BigInteger d = inverse(e, phi);
+            } 
             BigInteger[] Pu = { e, n };
             BigInteger[] Pr = { d, n };
             BigInteger[][] keys = { Pu, Pr };
@@ -183,19 +171,26 @@ namespace RSAServer
             BigInteger r = b;
             BigInteger new_r = a;
             BigInteger quotient = new BigInteger();
-            BigInteger t = new BigInteger(1);
-            BigInteger new_t = new BigInteger(0);
-            while(new_r != BigInteger.Zero)
+            BigInteger t = new BigInteger(0);
+            BigInteger new_t = new BigInteger(1);
+            BigInteger temp = new BigInteger();
+            while (new_r != BigInteger.Zero)
             {
                 quotient = BigInteger.Divide(r, new_r);
-                BigInteger temp = new_r;
-                new_r = BigInteger.Subtract(r, BigInteger.Multiply(quotient, new_r));
-                r = temp;
                 temp = new_t;
                 new_t = BigInteger.Subtract(t, BigInteger.Multiply(quotient, new_t));
                 t = temp;
+                temp = new_r;
+                new_r = BigInteger.Subtract(r, BigInteger.Multiply(quotient, new_r));
+                r = temp;
             }
-            if( t < BigInteger.Zero)
+
+            if(r > 1)
+            {
+                t = BigInteger.Zero;
+                return t;
+            }
+            if( t < 0)
             {
                 t = BigInteger.Add(t, b);
             }

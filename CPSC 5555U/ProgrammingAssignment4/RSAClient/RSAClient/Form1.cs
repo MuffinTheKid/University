@@ -27,6 +27,7 @@ namespace RSAClient
 
         private void Connect(string ServerIP, string Message)
         {
+            //int message = Convert.ToInt32(Message);
             try
             {
                 //Creates a TcpClient on a specific address and port
@@ -76,6 +77,7 @@ namespace RSAClient
                         stream.Read(data, 0, data.Length);
                         BigInteger n = new BigInteger(data);
                         Key pu = new Key(e, n);
+                        infoBox.Text += "Message to be encrypted : " + Message.ToString() + "\r\n";
                         BigInteger eMessage = this.encrypt(Message, pu.returnKey());
                         data = eMessage.ToByteArray();
                         infoBox.Text += "Encrypted message " + eMessage.ToString() + "\r\n";
@@ -112,6 +114,7 @@ namespace RSAClient
             {
                 Byte[] messageB = System.Text.Encoding.ASCII.GetBytes(message);
                 BigInteger M = new BigInteger(messageB);
+                infoBox.Text += "Message broken down to bytes and turned into a BigInteger: " + M.ToString() + "\r\n";
                 C = BigInteger.ModPow(M, key[0], key[1]);
                 return C;
             }
