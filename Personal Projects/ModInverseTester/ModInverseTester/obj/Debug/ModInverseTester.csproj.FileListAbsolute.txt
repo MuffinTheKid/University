@@ -1,0 +1,8 @@
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\bin\Debug\ModInverseTester.exe
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\bin\Debug\ModInverseTester.pdb
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\obj\Debug\ModInverseTester.csprojResolveAssemblyReference.cache
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\obj\Debug\ModInverseTester.ModInverseTester.resources
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\obj\Debug\ModInverseTester.Properties.Resources.resources
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\obj\Debug\ModInverseTester.csproj.GenerateResource.Cache
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\obj\Debug\ModInverseTester.exe
+C:\Users\Drewski\Documents\GitHub\University\Personal Projects\ModInverseTester\ModInverseTester\obj\Debug\ModInverseTester.pdb
