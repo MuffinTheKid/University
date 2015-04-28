@@ -1,0 +1,13 @@
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\bin\Debug\PrimeNumberGenerator.exe.config
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\PrimeNumberGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\MainWindow.baml
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\MainWindow.g.cs
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\App.g.cs
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\PrimeNumberGenerator_MarkupCompile.cache
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\PrimeNumberGenerator.g.resources
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\PrimeNumberGenerator.Properties.Resources.resources
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\PrimeNumberGenerator.csproj.GenerateResource.Cache
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\bin\Debug\PrimeNumberGenerator.exe
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\bin\Debug\PrimeNumberGenerator.pdb
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\PrimeNumberGenerator.exe
+C:\Users\Drewski\Documents\Projects\New folder\PrimeNumberGenerator\PrimeNumberGenerator\obj\Debug\PrimeNumberGenerator.pdb
