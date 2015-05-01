@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSU Campus Assistant 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_facility_list">FacilityList</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_facitlity">Facitlity</string>
+    <string name="title_activity_gmt">GMT</string>
+
+</resources>

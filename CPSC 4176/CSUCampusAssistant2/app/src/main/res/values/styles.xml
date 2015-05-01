@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name = "android:windowNoTitle">true</item>
+        <item name = "android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+<!--
+    <style name = "AppTheme" parent = "Theme.AppCompat.Light.NoActionBar">
+        <item name = "android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name = "ActionBar" parent = "android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name = "android:background"></item>
+    </style>
+-->
+
+</resources>
